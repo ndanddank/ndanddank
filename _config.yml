@@ -1,0 +1,44 @@
+# Site settings
+name: Nalongsone Danddank
+title: Nalongsone Danddank | Software Developer
+description: Software Engineer&Developer focused on building and creating beautiful future Applications, also new technologies.
+url: https://ndanddank.github.io
+baseurl: ''
+email: ndanddank@gmail.com
+cover: 
+logo: 
+resume: https://github.com/ndanddank/ndanddank.github.io/blob/gh-pages/NalongsoneDanddank_Resume.pdf
+academic_record: https://github.com/ndanddank/ndanddank.github.io/blob/gh-pages/AcademicRecord.pdf
+social:
+  - title: email
+    url: mailto:ndanddank@gmail.com
+  - title: twitter
+    url: https://twitter.com/ping58972
+  - title: instagram
+    url: https://instagram.com/ping58972
+  - title: github
+    url: https://github.com/ping58972
+  - title: linkedin
+    url: https://www.linkedin.com/in/ndanddank
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - '*.gemspec'
+  - 'README.md'
+  - 'node_modules'
+  - 'build'
+  - 'gulpfile.js'
+  - 'package.json'
+
+keep_files:
+  - 'CNAME'
+  - '.git'
+  - '.gitignore'
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap

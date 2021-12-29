@@ -1,0 +1,99 @@
+- name: Find Path Travel Cities Algorithm
+  url: ""
+  client_code: ""
+  server_code: https://github.com/ping58972/Metropolitan-State-University-All-Courses/tree/main/Algorithms%20and%20Data%20Structures-ICS%20340_01-Spring2021/publish
+  description: This is an advance algorithm project from CS course - Algorithms and Data Structures.  </br>
+              Algorithm Deliverable D - finding a good Ham cycle path by local search or Genetic Algorithm.</br>
+              Algorithm Deliverable C - From the starting city use depth first search with iterative deepening to find the nearest goal city.</br>
+              Algorithm Deliverable B - find the shortest Bitonic Tour of the cities.
+  used:
+    - thing: Java
+    - thing: Local Search
+    - thing: Bitonic Tour
+    - thing: Deep First Search
+    - thing: Breath First Search
+    - thing: Ham cycle path
+
+- name: Airline Search App
+  server_code: https://github.com/ping58972/unitedairline-search-app-server/tree/master/flight-search
+  client_code: https://github.com/ping58972/unitedairline-search-app-client
+  url: ""
+  description: This Project is Full-Stack Application of Airline Search service Restful API. </br> Client side, single Web page, was implement with Angular CLI version 8.3.20. </br>
+          Server side implements by Java spring boot and connect to MySQL Database.
+  used:
+    - thing: Java
+    - thing: Spring Boot
+    - thing: Restful API
+    - thing: Angular 8 
+    - thing: MySQL
+
+- name: Post Message Web APP
+  server_code: https://github.com/ping58972/testing-node-rest-api-mocha-chai
+  client_code: https://github.com/ping58972/react-restful-api-basic-socket-io
+  url: https://ping58972.github.io/react-restful-api-basic-socket-io
+  description: This project is the single page that build by React and fetch all data from web server  
+              using MongoDB to save data this server API that has been deployed to Heroru and testing with Mocha&Chai
+  used:
+    - thing: Node.js
+    - thing: React.js
+    - thing: Express.js
+    - thing: Socket.io
+    - thing: MongoDB
+    - thing: Mocha
+
+- name: Working with Cloud Virtual Machines
+  url: ""
+  client_code: ""
+  server_code: https://github.com/ping58972/Metropolitan-State-University-All-Courses/tree/main/Distributed_and_Cloud_Computing-ICS432_01-Fall2021/Assignment-01
+  description:  This is an Assignment from CS course - Distributed and Cloud Computing. </br>
+                 Part 1 is Hosting a web site on an AWS EC2 instance. </br>
+                 Part 2 is Data Analysis using SQL on a GCP Virtual Machine.
+  used:
+    - thing: AWS
+    - thing: AWS EC2
+    - thing: AWS S3
+    - thing: AWS EFS
+    - thing: GCP 
+    - thing: GCP Compute-Egnine
+    - thing: GCP Cloud-SQL
+
+- name: Predict Profits and Prices
+  url: ""
+  client_code: ""
+  server_code: https://github.com/ping58972/LinearRegression_Practice
+  description: First, linear regression with one variable to predict profits for a food truck. </br>
+        Second, linear regression with multiple variables to predict the prices of houses. 
+        wanting to know what a good market price would be.  
+  used:
+    - thing: Linear Regression Algorithm
+    - thing: Machine Learning
+    - thing: Python
+    - thing: Numpy
+    - thing: Jupyter
+
+- name: Clinic Management
+  server_code: https://github.com/ping58972/clinic-management
+  client_code: ""
+  url: ""
+  description: Java - core Java se8.
+        JSP - java service page for dynamic web page.
+        Servlet - Used to implement web server with java.
+       JDBC - java database connectivity API for connect with MySQL.
+        Tomcat server - run server side for render web page.
+  used:
+    - thing: Java
+    - thing: JDBC
+    - thing: JSP
+    - thing: Tomcat server 
+    - thing: Servlet
+
+- name: Manager Mobile App
+  server_code: ""
+  client_code: https://github.com/ping58972/manager-mobile-app
+  url: ""
+  description: This mobile app is for practice react native, react reduxe, and google firebase that implement 
+              by android studio, etc.
+  used:
+    - thing: Google Firebase
+    - thing: Redux
+    - thing: React-Native
